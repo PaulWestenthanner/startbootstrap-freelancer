@@ -11083,3 +11083,39 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.tech-slideshow {
+  height: 5rem;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.mover-1 {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  overflow-x:hidden;
+  margin-left: auto;
+  margin-right: auto;
+
+  animation: moveSlideshow 3s linear infinite;
+}
+
+.mover-1 img {
+  display:inline-block;
+  vertical-align:middle;
+  align-items: center;
+  width:auto;
+  margin-left: 20px;
+  margin-right: 20px;
+/*   margin:0; */
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-520px);  
+  }
+}
