@@ -5278,6 +5278,10 @@ textarea.form-control-lg {
   margin: var(--bs-modal-margin);
   pointer-events: none;
 }
+.modal-dialog img {
+  max-height: 150px;
+  max-width: 150px;
+}
 .modal.fade .modal-dialog {
   transition: transform 0.3s ease-out;
   transform: translate(0, -50px);
@@ -11041,6 +11045,7 @@ html {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  margin-bottom: 1rem;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
@@ -11055,6 +11060,10 @@ html {
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
+}
+
+.portfolio .portfolio-item img {
+  max-height: 7rem;
 }
 
 .portfolio-modal .btn-close {
@@ -11082,40 +11091,4 @@ html {
 
 .copyright {
   background-color: #1a252f;
-}
-
-.tech-slideshow {
-  height: 5rem;
-  max-width: 100%;
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-}
-
-.mover-1 {
-  height: 100%;
-  width: 100%;
-  text-align: center;
-  position: relative;
-  overflow-x:hidden;
-  margin-left: auto;
-  margin-right: auto;
-
-  animation: moveSlideshow 3s linear infinite;
-}
-
-.mover-1 img {
-  display:inline-block;
-  vertical-align:middle;
-  align-items: center;
-  width:auto;
-  margin-left: 20px;
-  margin-right: 20px;
-/*   margin:0; */
-}
-
-@keyframes moveSlideshow {
-  100% { 
-    transform: translateX(-520px);  
-  }
 }
