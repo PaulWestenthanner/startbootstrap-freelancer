@@ -10877,7 +10877,7 @@ html {
   padding: 6rem 0;
 }
 .page-section .page-section-heading {
-  font-size: 2.25rem;
+  font-size: 2.15rem;
   line-height: 2rem;
 }
 @media (min-width: 992px) {
@@ -11015,8 +11015,8 @@ html {
   padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
-  font-size: 2.75rem;
-  line-height: 2.75rem;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
 }
 .masthead .masthead-subheading {
   font-size: 1.25rem;

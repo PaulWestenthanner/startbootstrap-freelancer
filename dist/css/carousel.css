@@ -14,7 +14,7 @@
     margin: auto;
     overflow: hidden;
     position: relative;
-    width: 960px;
+    max-width: 960px;
 }
 
 .slider::before,
@@ -23,7 +23,7 @@
     content: "";
     height: 100px;
     position: absolute;
-    width: 200px;
+    width: 50px;
     z-index: 2;
 }
 
